@@ -5,9 +5,12 @@ import withMain from "../hoc/main";
 class Page extends React.Component {
   static getInitialProps() {
     return {
-      place: "world",
-      withMainThing: <h1>hello</h1>
+      place: "world"
     };
+  }
+
+  static getMainThing() {
+    return <h1>hello</h1>;
   }
 
   render() {

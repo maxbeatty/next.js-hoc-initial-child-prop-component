@@ -9,7 +9,7 @@ export default function MainLayout(Child) {
     render() {
       return (
         <div>
-          {this.props.withMainThing}
+          {Child.getMainThing()}
 
           <Child {...this.props} />
         </div>
