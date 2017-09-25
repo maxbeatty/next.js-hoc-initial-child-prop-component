@@ -1,0 +1,19 @@
+{
+  "name": "next.js-hoc-initial-child-prop-component",
+  "version": "1.0.0",
+  "description": "debugging passing component as prop to hoc",
+  "main": "index.js",
+  "author": "Max Beatty",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "^3.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
