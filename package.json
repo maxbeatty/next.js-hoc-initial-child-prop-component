@@ -5,11 +5,11 @@
   "main": "index.js",
   "author": "Max Beatty",
   "license": "MIT",
-  "private": false,
+  "repository": "git@github.com:maxbeatty/next.js-hoc-initial-child-prop-component",
   "dependencies": {
-    "next": "^3.2.2",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "scripts": {
     "dev": "next",
